@@ -45,7 +45,7 @@ contract EuropeanRoulette {
 
     // Internal function to simulate the roulette spin
     function spinRoulette() internal view returns (uint256) {
-        uint256 randomHash = uint256(keccak256(abi.encodePacked(block.timestamp, block.difficulty, player)));
+        uint256 randomHash = uint256(keccak256(abi.encodePacked(block.timestamp, block.prevrandao, player)));
         return rouletteNumbers[randomHash % rouletteNumbers.length];
     }
 

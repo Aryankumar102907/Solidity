@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.0+commit.c7dfd78e"
+		"version": "0.8.26+commit.8a97fa7a"
 	},
 	"language": "Solidity",
 	"output": {
@@ -152,7 +152,7 @@
 		"compilationTarget": {
 			"contracts/EuropeanRoulette.sol": "EuropeanRoulette"
 		},
-		"evmVersion": "istanbul",
+		"evmVersion": "cancun",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -165,11 +165,11 @@
 	},
 	"sources": {
 		"contracts/EuropeanRoulette.sol": {
-			"keccak256": "0xf0be6f8f5080dcc6d2fc30eef3a617aa8a79fd2bf6d72ce4061fd6392a93a895",
+			"keccak256": "0xda3d11a01c94667aef20f5f7e28fb6614422cb4fea92962ddfb324d6810e43b1",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://c6c673f785fce09a25f81cdafc10ea6269fdb7af6f5ca1b701d51ee87f574270",
-				"dweb:/ipfs/QmSevCJGeoqnb52ExBq43u9t8hMkjTfHBpnmyBY1hiKPHU"
+				"bzz-raw://afb770a9f98582ac5238b5c32def03e55dcaf08f6617d21a0a0915d145067691",
+				"dweb:/ipfs/QmRroXqTdRErEGkJfUNVvobJko9sBCU79ujn991bf6sc18"
 			]
 		}
 	},
