@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.0+commit.c7dfd78e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "num",
+						"type": "uint256"
+					}
+				],
+				"name": "isArmstrong",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ArmstrongNum.sol": "ArmstrongNumber"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ArmstrongNum.sol": {
+			"keccak256": "0x22d5b5cfb35c3c8a4a6547e392a03c1670e22f388a56b623ef8cff0aa11a579d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://49acb137fc5cf99ddd56d0f780be4efa011f65b8a6da0f50edd7afb45ceeb96c",
+				"dweb:/ipfs/QmZnccZ8trCrZUwPB74VJhSKdmKbydnv7LUB3avTnSHae5"
+			]
+		}
+	},
+	"version": 1
+}

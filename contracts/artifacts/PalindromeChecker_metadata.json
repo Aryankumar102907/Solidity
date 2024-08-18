@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "number",
+						"type": "uint256"
+					}
+				],
+				"name": "isPalindrome",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/utube.sol": "PalindromeChecker"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/utube.sol": {
+			"keccak256": "0xd518215ad9918c05686b85569910294ad57938d5b3d31871aed2762d439f0d89",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f6dd4a94eafb0ad7df7dc45da13ab7a1059658ad88a4d675aa0aebf3ec608c8d",
+				"dweb:/ipfs/QmWFbDTbW3L9j6LBeRSNMS7hk7jJ77pxHdQzYaQ6hNa1kz"
+			]
+		}
+	},
+	"version": 1
+}
